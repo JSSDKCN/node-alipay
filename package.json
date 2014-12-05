@@ -22,6 +22,7 @@
   "homepage": "https://github.com/calidion/node-alipay",
   "dependencies": {
     "request": "^2.49.0",
-    "ursa": "^0.8.0"
+    "ursa": "^0.8.0",
+    "xml2json": "^0.5.1"
   }
 }
