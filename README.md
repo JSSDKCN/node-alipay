@@ -28,7 +28,7 @@ var data = {
   account: account,
   urls: {
     callback: baseUrl + '/alipay/callback',
-    notify: baseUrl + '/alipay/callback',
+    notify: baseUrl + '/alipay/notify',
     merchant: baseUrl + '/alipay/merchant'
   }
 };
