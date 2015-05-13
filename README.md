@@ -3,6 +3,8 @@ node-alipay
 
 alipay apis for node
 
+[![Coverage Status](https://coveralls.io/repos/calidion/node-alipay/badge.svg)](https://coveralls.io/r/calidion/node-alipay)
+
 crypt supported:
 md5, rsa(not tested)
 
