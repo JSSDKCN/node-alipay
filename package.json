@@ -1,6 +1,6 @@
 {
   "name": "node-alipay",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "alipay interface for node",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/calidion/node-alipay.git"
+    "url": "https://github.com/JSSDKCN/node-alipay.git"
   },
   "keywords": [
     "node",
@@ -17,9 +17,9 @@
   "author": "calidion",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/calidion/node-alipay/issues"
+    "url": "https://github.com/JSSDKCN/node-alipay/issues"
   },
-  "homepage": "https://github.com/calidion/node-alipay",
+  "homepage": "https://github.com/JSSDKCN/node-alipay",
   "dependencies": {
     "request": "^2.57.0",
     "ursa": "^0.8.5",
