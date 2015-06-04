@@ -12,8 +12,6 @@ describe('node-alipay mobile v3', function () {
   describe('v3', function() {
     it('should be able to send a request', function (done) {
       var data = _.clone(config.alipay.config);
-      console.log(data);
-      console.log(config.alipay.config);
       data.out_trade_no = '20150529142335-EJTG';
       data.subject = '田一块小卖店的订单';
       data.total_fee = '25.80';
@@ -25,13 +23,12 @@ describe('node-alipay mobile v3', function () {
       data.airticket = '';
       var marshaled = alipay.marshal(data);
 
-      var rsa = require('../lib/crypt/rsa');
+      var rsa = alipay.v3.rsa;
       rsa.init(config.alipay.pems);
 
       var str = rsa.encrypt(marshaled);
       data.sign = str;
       data.sign_type = 'RSA';
-
       done();
 
       /*
