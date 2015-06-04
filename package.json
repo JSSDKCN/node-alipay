@@ -1,32 +1,32 @@
 {
   "name": "node-alipay",
-  "version": "0.0.0",
-  "description": "The best module ever.",
-  "author": {
-    "name": "",
-    "email": ""
-  },
-  "repository": "user/repo",
-  "license": "MIT",
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "node-alipay",
-    ""
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-mocha-cli": "^1.12.0",
-    "jshint-stylish": "^1.0.1",
-    "load-grunt-tasks": "^3.1.0",
-    "time-grunt": "^1.1.0"
-  },
+  "version": "0.0.1",
+  "description": "alipay interface for node",
+  "main": "index.js",
   "scripts": {
-    "test": "grunt"
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calidion/node-alipay.git"
+  },
+  "keywords": [
+    "node",
+    "alipay"
+  ],
+  "author": "calidion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calidion/node-alipay/issues"
+  },
+  "homepage": "https://github.com/calidion/node-alipay",
+  "dependencies": {
+    "request": "^2.57.0",
+    "ursa": "^0.8.5",
+    "xml2json": "^0.5.1"
+  },
+  "devDependencies": {
+    "lodash": "^3.9.3",
+    "ursa": "^0.8.5"
   }
 }

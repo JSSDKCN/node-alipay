@@ -14,6 +14,7 @@ $ npm install --save node-alipay
 
 
 ## Support
+=======
 
 crypt supported:
 md5, rsa(not tested)
@@ -22,7 +23,38 @@ sub module support list:
 mobile wap
 
 
+## Key Generation
+
+
+Private keygen:
+
+windows/linux:
+
+```bash
+genrsa -out rsa_private_key.pem 4096
+```
+
+mac:
+
+```bash
+openssl genrsa -out rsa_private_key.pem 4096
+```
+
+Public keygen:
+
+windows/linux:
+
+```bash
+ rsa -in rsa_private_key.pem -pubout -out rsa_public_key.pem
+```
+
+mac
+```bash
+openssl rsa -in rsa_private_key.pem -pubout -out rsa_public_key.pem
+```
+
 ## Usage
+
 
 ```javascript
 var alipay = require("node-alipay");
@@ -79,8 +111,6 @@ module.exports = {
 }
 
 ```
-
-
 
 ## License
 
