@@ -29,9 +29,6 @@ describe('node-alipay mobile v3', function () {
       var str = rsa.encrypt(marshaled);
       data.sign = str;
       data.sign_type = 'RSA';
-      done();
-
-      /*
 
       alipay.request('https://mapi.alipay.com/gateway.do',
         data, function (error, response, text) {
@@ -41,14 +38,9 @@ describe('node-alipay mobile v3', function () {
           }
           var Iconv = require('iconv').Iconv;
           var iconv = new Iconv('GBK', 'UTF-8//TRANSLIT//IGNORE');
-
-          var converted = iconv.convert(text);
-
-          console.log(converted.toString());
+          console.log(iconv.convert(text).toString());
           done();
         });
-
-        */
     });
 
   });
