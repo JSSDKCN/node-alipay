@@ -1,6 +1,6 @@
 {
   "name": "node-alipay",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "alipay interface for node",
   "main": "index.js",
   "scripts": {
