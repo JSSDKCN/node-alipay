@@ -119,7 +119,7 @@ MIT © []()
 
 [npm-image]: https://badge.fury.io/js/node-alipay.svg
 [npm-url]: https://npmjs.org/package/node-alipay
-[travis-image]: https://travis-ci.org//node-alipay.svg?branch=master
-[travis-url]: https://travis-ci.org//node-alipay
-[daviddm-image]: https://david-dm.org//node-alipay.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//node-alipay
+[travis-image]: https://travis-ci.org/JSSDKCN/node-alipay.svg?branch=master
+[travis-url]: https://travis-ci.org/JSSDKCN/node-alipay
+[daviddm-image]: https://david-dm.org/JSSDKCN/node-alipay.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/JSSDKCN/node-alipay
