@@ -1,8 +1,8 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
 node-alipay
 ===========
-  
+
 > alipay apis for node
 
 
@@ -123,3 +123,5 @@ MIT © []()
 [travis-url]: https://travis-ci.org/JSSDKCN/node-alipay
 [daviddm-image]: https://david-dm.org/JSSDKCN/node-alipay.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/JSSDKCN/node-alipay
+[coveralls-image]: https://coveralls.io/repos/JSSDKCN/node-alipay/badge.svg
+[coveralls-url]: https://coveralls.io/r/JSSDKCN/node-alipay

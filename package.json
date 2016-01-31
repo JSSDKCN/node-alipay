@@ -4,7 +4,8 @@
   "description": "alipay interface for node",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "grunt",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "xml2js": "^0.4.16"
   },
   "devDependencies": {
-    "lodash": "^4.1.0"
+    "lodash": "^4.1.0",
+    "mocha": "^2.4.5"
   }
 }
